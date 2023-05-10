@@ -1,2 +1,3 @@
 # bl0bb13s
-◕ ◞ ◕ This project was made using https://netnet.studio
+
+https://mayav1s1ons.github.io/bl0bb13s/
