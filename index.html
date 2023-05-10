@@ -1,0 +1,18 @@
+<canvas id="myCanvas" style="width:1800px; height:1110px;"></canvas>
+
+<script src="https://unpkg.com/hydra-synth"></script>
+<script>
+
+  new window.Hydra({
+    canvas: document.getElementById("myCanvas"),
+    detectAudio: false
+  })
+
+	noise(2.824, 0.017)
+	.color(0.032, 1.137, 0.256)
+	.hue(()=>Math.sin(time/13.888))
+	.modulateHue(voronoi(5, 0.145, 0.3), 1.406)
+	.posterize(3.843, 0.6)
+	.out()
+  
+</script>
